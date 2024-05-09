@@ -118,10 +118,10 @@ function Header() {
 
           <div className="flex justify-end items-center gap-2 sm:gap-6 xl:gap-10 font-medium max-sm:hidden">
             <div className="flex justify-between items-center gap-1 ">
-              <span className="bg-s1 rounded-full text-s2 p-2 md:p-3 text-lg lg:text-2xl">
+              <span className="bg-s1 rounded-full text-white p-2 md:p-3  text-lg lg:text-2xl">
                 <PiPhoneCallBold />
               </span>
-              <Link to={"tel:+800-990-8065"} className="max-xl:hidden">
+              <Link to={"tel:+800-990-8065"} className=" p-1 max-xl:hidden">
               800-990-8065
               </Link>
             </div>
