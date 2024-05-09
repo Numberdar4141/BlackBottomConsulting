@@ -121,8 +121,8 @@ function Header() {
               <span className="bg-s1 rounded-full text-s2 p-2 md:p-3 text-lg lg:text-2xl">
                 <PiPhoneCallBold />
               </span>
-              <Link to={"tel:+1234 567 896"} className="max-xl:hidden">
-                + 1234 567 865
+              <Link to={"tel:+800-990-8065"} className="max-xl:hidden">
+              800-990-8065
               </Link>
             </div>
             <LinkButton link="/contact" text="Get Started" />
