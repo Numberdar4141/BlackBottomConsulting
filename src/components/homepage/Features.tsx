@@ -22,7 +22,7 @@ function Features() {
           {featuresCard.map(({ id, icon, name, desc,desc1,desc2 }, idx) => (
             <div className="col-span-12 sm:col-span-6 lg:col-span-3 " key={id}>
               <StaggerEffect id={idx}>
-                <div className="bg-white shadow-xl rounded-2xl p-6 xl:p-8 flex flex-col border border-white group hover:border-white duration-700 hover:bg-green-800">
+                <div className="bg-white shadow-xl rounded-2xl p-6 xl:p-8 flex flex-col lg:h-[400px] border border-white hover:shadow-2xl group hover:border-white duration-700 hover:bg-green-800">
                   <div className="text-4xl text-green-800 pb-6 group-hover:text-white duration-500">
                     {icon}
                   </div>

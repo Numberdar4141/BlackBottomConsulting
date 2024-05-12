@@ -1,4 +1,4 @@
-import BlogSection from "../components/homepage/BlogSection";
+
 import CTASectiont from "../components/homepage/CTASectiont";
 
 import ContactSection from "../components/homepage/ContactSection";
@@ -7,10 +7,10 @@ import CounterSection from "../components/homepage/CounterSection";
 import Features from "../components/homepage/Features";
 import Hero from "../components/homepage/Hero";
 import Integrations from "../components/homepage/Integrations";
-import PricingSection from "../components/homepage/PricingSection";
+
 import SolutionsSection from "../components/homepage/SolutionsSection";
 import StepByStepGuide from "../components/homepage/StepByStepGuide";
-import Testimonial from "../components/homepage/Testimonial";
+
 import WhyAccoupay from "../components/homepage/WhyAccoupay";
 import NerverWorrySection from "../components/services/NerverWorrySection";
 
@@ -21,16 +21,13 @@ function HomePage() {
      <NerverWorrySection/>
      <Features />
      <CounterSection />
+     <StepByStepGuide />
+     <WhyAccoupay />
       <SolutionsSection />
-     
-      
-      <StepByStepGuide />
-      <WhyAccoupay />
       <Integrations />
       <ContactUsSection />
-      <Testimonial />
-      <PricingSection />
-      <BlogSection />
+      
+    
       <ContactSection />
       <CTASectiont />
     </main>

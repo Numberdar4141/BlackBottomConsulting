@@ -1,34 +1,38 @@
-import NumberCounter from "../ui/NumberCounter";
+
 
 function CounterSection() {
   return (
     <section className=" bg-black bg-cover stp-30 sbp-30 relative ">
       <div className="container text-white flex justify-between items-center gap-8 sm:gap-4 md:gap-8 lg:gap-16 max-sm:flex-col">
-        <div className="text-center max-w-[280px]">
-          <p className="display-4 pb-3">
-            <NumberCounter start={1} end={10} /> +
-          </p>
-          <h1 className="text-[30px]">Years of Experience</h1>
+        <div className="text-center max-w-[350px]">
+         
+          <h1 className="text-[35px]">Expertise in diverse investment sectors</h1>
           <p className="lg:mt-[20px]">
-          Proven track record in the investment industry
+          We have extensive knowledge and experience in various industries, allowing us to identify lucrative investment opportunities.
+
           </p>
         </div>
-        <div className="h-[120px] w-[2px] bg-white/70 mt-8 max-sm:hidden"></div>
-        <div className="text-center max-w-[280px]">
-          <p className="display-4 pb-3">
-            <NumberCounter start={1} end={10} /> +
-          </p>
-          <h1 className="text-[30px]">Years of Experience</h1>
+        <div className="h-[120px] w-[4px] bg-white/70 mt-8 max-sm:hidden"></div>
+        <div className="text-center max-w-[350px]">
+        
+          <h1 className="text-[35px]">Proven track record of high returns
+</h1>
           <p className="lg:mt-[20px]">
-          Proven track record in the investment industry
+          Our investment strategies have consistently delivered impressive returns, generating wealth for our clients.
+
           </p>
         </div>
-        <div className="h-[120px] w-[2px] bg-white/70 mt-8 max-sm:hidden"></div>
-        <div className="text-center max-w-[280px]">
-          <p className="display-4 pb-3">
-            <NumberCounter start={1} end={8} /> Weeks
+        <div className="h-[120px] w-[4px] bg-white/70 mt-8 max-sm:hidden"></div>
+        <div className="text-center max-w-[350px]">
+      
+          <h1 className="text-[35px]">Access to exclusive investment deals
+
+</h1>
+          <p className="lg:mt-[20px]">
+          We have a wide network of industry connections, providing access to exclusive investment opportunities.
+
+
           </p>
-          <p>average time it takes to switch to Accupay - and often less</p>
         </div>
       </div>
     </section>

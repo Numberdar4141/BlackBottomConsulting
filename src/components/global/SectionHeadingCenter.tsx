@@ -17,7 +17,7 @@ function SectionHeadingCenter({
     <div className="flex justify-center items-center max-xxl:overflow-hidden">
       <div className="  max-w-[700px] text-center flex justify-center items-center flex-col">
         <FadeDown>
-          <p className="bg-p1 py-2 sm:py-3 px-5 rounded-full text-white ">
+          <p className="bg-green-800 py-2 sm:py-3 px-5 rounded-xl text-white ">
             {sectionName}
           </p>
         </FadeDown>

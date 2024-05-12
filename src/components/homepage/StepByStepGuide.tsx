@@ -8,10 +8,9 @@ function StepByStepGuide() {
     <section className="stp-30 sbp-30">
       <div className="container">
         <SectionHeadingCenter
-          sectionName="How it works"
-          sectionTitle="A Step-by-Step Guide to Our Platform"
-          sectionDesc="Explore our platform with ease! Sign up, select your industry, and
-              seamlessly integrate our tailored payment solutions."
+          sectionName="Business Plan"
+          sectionTitle="Investment Strategies For High Returns"
+          sectionDesc="We streamline the process of creating your business entity, taking it into the digital age. Our expertise ensures a smooth transition into the world of online business, helping you maximize efficiency and effectiveness"
         />
         <div className="flex justify-between items-center gap-6 md:gap-4 lg:gap-6 stp-15 relative max-md:flex-col">
           <img
@@ -29,7 +28,7 @@ function StepByStepGuide() {
               className="flex justify-center items-center text-center flex-col max-w-[350px]"
               key={id}
             >
-              <div className="text-s1 bg-softBg border border-strokeColor rounded-full p-6 lg:p-7 text-3xl lg:text-5xl">
+              <div className="text-green-800 bg-softBg border border-strokeColor rounded-full p-6 lg:p-7 text-3xl lg:text-5xl">
                 {icon}
               </div>
               <h4 className="heading-4 pt-8 pb-6">{title}</h4>

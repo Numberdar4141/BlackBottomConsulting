@@ -53,9 +53,7 @@ import { v4 as uuidv4 } from "uuid";
 import whyAccupayCard1 from "/images/whyAccoupayCard_1.png";
 import whyAccupayCard2 from "/images/whyAccoupayCard_2.png";
 import whyAccupayCard3 from "/images/whyAccoupayCard_3.png";
-import whyAccupayCard4 from "/images/whyAccoupayCard_4.png";
-import whyAccupayCard5 from "/images/whyAccoupayCard_5.png";
-import whyAccupayCard6 from "/images/whyAccoupayCard_6.png";
+
 
 import testimonial1 from "/images/testimonial1.png";
 import testimonial2 from "/images/testimonial2.png";
@@ -421,22 +419,28 @@ export const teamContactDetails = [
 export const solutionsFeatures = [
   {
     id: uuidv4(),
-    name: "Tax Preparation",
+    name: "Preferred Stock Certificates    ",
     icon: React.createElement(AiFillFileText),
   },
   {
     id: uuidv4(),
-    name: "Payroll Processing",
+    name: "Membership Certificates (LLCs)    ",
     icon: React.createElement(PiHandCoinsFill),
   },
   {
     id: uuidv4(),
-    name: "Cost Effective",
+    name: "Bonds or Debt Instruments ",
     icon: React.createElement(PiLightbulbFilamentFill),
+  },
+ 
+  {
+    id: uuidv4(),
+    name: "Investment Agreement",
+    icon: React.createElement(PiRocketLaunchFill),
   },
   {
     id: uuidv4(),
-    name: "Scale Rapidly",
+    name: "Regulatory Compliance Documentation    ",
     icon: React.createElement(PiRocketLaunchFill),
   },
 ];
@@ -453,7 +457,23 @@ export const featuresCard = [
   {
     id: uuidv4(),
     icon: React.createElement(FaUsers),
-    name: "Market Opportunity",
+    name: "Problem Statement    ",
+    desc: "1. Define the problem or need that your product or service addresses.",
+    desc1: "2. Use statistics or real-life examples to illustrate the severity of the problem.",
+    desc2: "3. Recent market trends or changes",
+  },
+  {
+    id: uuidv4(),
+    icon: React.createElement(FaUsers),
+    name: "Competitive Analysis    ",
+    desc: "1. Identify your main competitors.",
+    desc1: "2. Highlight your competitive advantage.",
+    desc2: "3. Market barriers or entry challenges.",
+  },
+  {
+    id: uuidv4(),
+    icon: React.createElement(FaUsers),
+    name: "Solution and Value Proposition    ",
     desc: "1. Market size and potential for your product or service.",
     desc1: "2. Target audience and customer demographics.",
     desc2: "3. Recent market trends or changes",
@@ -461,35 +481,20 @@ export const featuresCard = [
   {
     id: uuidv4(),
     icon: React.createElement(FaUsers),
-    name: "Market Opportunity",
-    desc: "1. Market size and potential for your product or service.",
-    desc1: "2. Target audience and customer demographics.",
-    desc2: "3. Recent market trends or changes",
+    name: "Financials    ",
+    desc: "1. Present financial projections for the next 3-5 years.",
+    desc1: "2. Include revenue, expenses, and profit margins.",
+    desc2: "3. Explain your revenue model and pricing strategy.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(FaUsers),
-    name: "Market Opportunity",
-    desc: "1. Market size and potential for your product or service.",
-    desc1: "2. Target audience and customer demographics.",
-    desc2: "3. Recent market trends or changes",
+    name: "Traction & Milestones    ",
+    desc: "1. Showcase any existing customer base, partnerships, or significant achievements.",
+    desc1: "2. Include data on revenue, growth rates, and user adoption.",
+    desc2: "3. Key milestones reached and future goals.",
   },
-  {
-    id: uuidv4(),
-    icon: React.createElement(FaUsers),
-    name: "Market Opportunity",
-    desc: "1. Market size and potential for your product or service.",
-    desc1: "2. Target audience and customer demographics.",
-    desc2: "3. Recent market trends or changes",
-  },
-  {
-    id: uuidv4(),
-    icon: React.createElement(FaUsers),
-    name: "Market Opportunity",
-    desc: "1. Market size and potential for your product or service.",
-    desc1: "2. Target audience and customer demographics.",
-    desc2: "3. Recent market trends or changes",
-  },
+ 
 
  
 ];
@@ -497,20 +502,20 @@ export const featuresCard = [
 export const stepByStepCard = [
   {
     id: uuidv4(),
-    title: "Create An Account",
-    desc: "Join our platform effortlessly! Streamlined user registration with secure verification.",
+    title: "Long-term growth investments",
+    desc: "We focus on investing in companies with significant growth potential over an extended period, generating substantial returns.",
     icon: React.createElement(PiFilePlusFill),
   },
   {
     id: uuidv4(),
-    title: "Add Your Employees",
-    desc: "Join our platform effortlessly! Streamlined user registration with secure verification.",
+    title: "Diversification across asset classes",
+    desc: "We employ a diversified investment approach, spreading investments across different asset classes to minimize risk and maximize returns.",
     icon: React.createElement(PiUserFill),
   },
   {
     id: uuidv4(),
-    title: "Run Your First Payroll",
-    desc: "Join our platform effortlessly! Streamlined user registration with secure verification.",
+    title: "Active portfolio management",
+    desc: "Our experienced team actively manages portfolios, regularly assessing and adjusting investments to optimize returns.",
     icon: React.createElement(PiHandCoinsFill),
   },
 ];
@@ -519,33 +524,22 @@ export const whyAccupayCard = [
   {
     id: uuidv4(),
     img: whyAccupayCard1,
-    title: "Hire or relocate team member with in house visa support",
+    title: "Efficient Digital Processes",
+    desc:"Streamline your operations with our digitized solutions, from online invoicing to content creation and website hosting, saving you time and resources."
   },
   {
     id: uuidv4(),
     img: whyAccupayCard2,
-    title: "Create complaint contracts with a single click very easyly",
+    title: "Comprehensive Market Analytics",
+    desc:"Benefit from our detailed market research and data-driven insights, enabling you to make informed decisions at every stage of your business journey."
   },
   {
     id: uuidv4(),
     img: whyAccupayCard3,
-    title: "Send equipment worldwide, without the hassle free work",
+    title: "Tailored Funding Strategies",
+    desc:"We understand that one size does not fit all. Benefit from our customized funding strategies designed to maximize your business's funding potential."
   },
-  {
-    id: uuidv4(),
-    img: whyAccupayCard4,
-    title: "Offer country- specific benefits at competitive rates",
-  },
-  {
-    id: uuidv4(),
-    img: whyAccupayCard5,
-    title: "Provide your team with co-working access via work life",
-  },
-  {
-    id: uuidv4(),
-    img: whyAccupayCard6,
-    title: "Save time using our advance integrations technologies.",
-  },
+ 
 ];
 
 export const faqs = [
@@ -744,27 +738,32 @@ export const integrationsCard = [
   {
     id: uuidv4(),
     icon: React.createElement(HiCurrencyDollar),
-    title: "Payment Gateways",
+    title: "Investment Amount",
+    desc:"Clearly state the amount of investment you are proposing."
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiMoneyFill),
-    title: "Tax Software Integration",
+    title: "Terms",
+    desc:"Brief overview of the terms of the investment, such as equity stake, convertible note, or preferred shares."
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Expense Management",
+    title: "Purpose",
+    desc:"Explain the intended use of the investment funds, such as product development, market expansion, or scaling operations."
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiTimerFill),
-    title: "Time Tracking Systems",
+    title: "Timeline",
+    desc:"Mention the expected timeline for the investment, including closing and disbursement of funds."
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandshakeFill),
-    title: "Customer Relationship",
+    title: "Benefits",
+    desc:"Highlight the potential benefits of the investment for both parties, focusing on mutual growth and strategic alignment."
   },
 ];
 
