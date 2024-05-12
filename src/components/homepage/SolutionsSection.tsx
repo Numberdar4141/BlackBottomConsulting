@@ -12,7 +12,7 @@ function SolutionsSection() {
         <div className="flex justify-center items-center">
           <SectionHeadingCenter
             sectionName="Business Entity"
-            sectionTitle="Unlocking Digital Opportunities"
+            sectionTitle="Empowering Your Business"
             sectionDesc=""
           />
         </div>
