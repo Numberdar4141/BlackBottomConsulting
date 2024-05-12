@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import StaggerEffectTwo from "../animation/StaggerEffectTwo";
 
-import heroIllus from "/images/H1.png";
+import heroIllus from "/images/H6.png";
 
 function Hero() {
   const text = "Success";
