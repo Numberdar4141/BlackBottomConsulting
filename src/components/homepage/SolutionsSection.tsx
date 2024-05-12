@@ -13,7 +13,7 @@ function SolutionsSection() {
           <SectionHeadingCenter
             sectionName="Business Entity"
             sectionTitle="Unlocking Digital Opportunities"
-            sectionDesc="We streamline the process of creating your business entity, taking it into the digital age. Our expertise ensures a smooth transition into the world of online business, helping you maximize efficiency and effectiveness"
+            sectionDesc=""
           />
         </div>
         <div className="grid grid-cols-12 stp-15 max-lg:gap-6">

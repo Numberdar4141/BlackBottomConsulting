@@ -13,6 +13,7 @@ import StepByStepGuide from "../components/homepage/StepByStepGuide";
 
 import WhyAccoupay from "../components/homepage/WhyAccoupay";
 import NerverWorrySection from "../components/services/NerverWorrySection";
+import WhatWeDo from "../components/services/WhatWeDo";
 
 function HomePage() {
   return (
@@ -25,6 +26,7 @@ function HomePage() {
      <WhyAccoupay />
       <SolutionsSection />
       <Integrations />
+      <WhatWeDo/>
       <ContactUsSection />
       
     

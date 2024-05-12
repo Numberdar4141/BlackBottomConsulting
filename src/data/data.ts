@@ -893,23 +893,28 @@ export const coreServices = [
 export const whatWeDo = [
   {
     id: uuidv4(),
-    title: "Payroll Processing Services",
-    desc: "Efficiently manage your payroll with our state-of-the-art processing services. From accurate salary disbursements.",
+    title: "Limit Personal Lability    ",
+  
   },
   {
     id: uuidv4(),
-    title: "Accounting and Bookkeeping",
-    desc: "Navigate the complexities of financial management with our professional accounting and bookkeeping services. ",
+    title: "Minimize Taxes",
+   
   },
   {
     id: uuidv4(),
-    title: "Tax Preparation and Filing",
-    desc: "Ensure a seamless tax season with our expert tax preparation and filing services. We handle all necessary documentation.",
+    title: "Centralized Management",
+   
   },
   {
     id: uuidv4(),
-    title: "Financial Advisory",
-    desc: "Empower your business with strategic financial guidance. Our experienced advisors provide insights and recommendations.",
+    title: "Continuity of Business ",
+   
+  },
+  {
+    id: uuidv4(),
+    title: "Continuity of Business ",
+   
   },
 ];
 
