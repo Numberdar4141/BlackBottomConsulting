@@ -4,7 +4,7 @@ import StaggerEffectTwo from "../animation/StaggerEffectTwo";
 import heroIllus from "/images/H1.png";
 
 function Hero() {
-  const text = "Success";
+  const text = "BlackBottom";
   const animateWord = text.split("");
   return (
     <section className=" bg-repeat bg-[url('/images/BG1.png')] stp-30  overflow-hidden">
@@ -18,7 +18,7 @@ function Hero() {
            Innovative Solutions for Market Challenges{" "}
           </p>
           <div className="display-2 ">
-         <span className="lg:text-[80px]">Empowering Business </span> 
+         <span className="lg:text-[80px]">The </span> 
             <div className="text-green-800 inline-flex">
               {animateWord.map((word, idx) => (
                 <StaggerEffectTwo key={idx} id={idx}>
@@ -26,7 +26,7 @@ function Hero() {
                 </StaggerEffectTwo>
               ))}
             </div>
-             <span className="lg:text-[80px]"> Together</span>
+             <span className="lg:text-[80px]"> Consulting</span>
           </div>
           <p className="max-w-[550px]">
           At Black Bottom Consulting, we're dedicated to empowering businesses with innovative solutions, serving as your strategic partner for success
@@ -34,9 +34,9 @@ function Hero() {
           <div className="flex justify-start items-center gap-4 pt-6 lg:pt-8 pb-15">
             <Link
               to={"/contact"}
-              className="font-medium bg-green-800 py-2 lg:py-3 px-4 lg:px-6 rounded-full text-white"
+              className="font-medium uppercase bg-green-800 py-2 lg:py-3 px-4 lg:px-6 rounded-xl text-white"
             >
-              Get Started
+             BlackBottom Consulting Services
             </Link>
           
           </div>
