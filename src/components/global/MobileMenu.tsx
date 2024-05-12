@@ -6,7 +6,7 @@ import { Link, useLocation } from "react-router-dom";
 import { headerMenu } from "../../data/data";
 import useToggle from "../../hooks/useToggle";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import logo from "/images/logo.png";
+import logo from "/images/BBlogo.png";
 function MobileMenu({
   showMobileMenu,
   setShowMobileMenu,
@@ -44,16 +44,16 @@ function MobileMenu({
   return (
     <nav>
       <div
-        className={`fixed top-0 left-0 bg-s1/80 h-full w-full lg:hidden  ${
+        className={`fixed top-0 left-0  h-full w-full lg:hidden  ${
           showMobileMenu
             ? "translate-y-0  opacity-30 "
-            : " translate-y-[-100%] delay-500 opacity-0 "
+            : " translate-y-[-100%] delay-100 opacity-0 "
         } duration-700 z-[998]`}
         onClick={() => setShowMobileMenu(false)}
       ></div>
 
       <div
-        className={`flex justify-start flex-col items-start gap-8 pb-10 lg:gap-20 fixed lg:hidden top-0 left-0 w-3/4 min-[500px]:w-1/2 h-full bg-s2 overflow-y-auto ${
+        className={`flex justify-start flex-col items-start gap-8 pb-10 lg:gap-20 fixed lg:hidden top-0 left-0 w-3/4 min-[500px]:w-1/2 h-full bg-black overflow-y-auto ${
           showMobileMenu
             ? "translate-y-0 delay-500 opacity-100  visible"
             : " translate-y-[100%] opacity-50 invisible"
@@ -61,17 +61,17 @@ function MobileMenu({
       >
         <div className="flex justify-between items-center w-full p-4 sm:p-8">
           <Link to={"/"}>
-            <img src={logo} alt="logo" />
+            <img src={logo}  className="w-[200px]" alt="logo" />
           </Link>
           <i
-            className="ri-close-line !text-3xl cursor-pointer"
+            className="ri-close-line !text-3xl text-white cursor-pointer"
             onClick={() => setShowMobileMenu(false)}
           >
             <MdClose />
           </i>
         </div>
 
-        <ul className="text-lg sm:text-xl flex gap-6 lg:gap-10 items-start flex-col pl-8">
+        <ul className="text-lg sm:text-xl flex gap-6 text-white lg:gap-10 items-start flex-col pl-8">
           {headerMenu.map((menu, idx) => (
             <li key={idx}>
               <StaggerEffect id={idx}>
