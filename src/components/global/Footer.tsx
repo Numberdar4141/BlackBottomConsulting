@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { footerLinks, getInTouch, socialLinks } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import logo from "/images/logo_white.png";
+import logo from "/images/BBlogo.png";
 function Footer() {
   return (
-    <footer className=" bg-mainTextColor  text-white/60">
+    <footer className=" bg-black  text-white/60">
       <div className="container grid grid-cols-12  stp-30 sbp-30 gap-6 max-xxl:pr-4">
         <div className=" col-span-12 min-[450px]:col-span-6 lg:col-span-3 flex flex-col gap-6 lg:gap-8">
           <div className="">
@@ -19,8 +19,8 @@ function Footer() {
               <li key={id} className="  ">
                 <StaggerEffect id={idx}>
                   <Link
-                    className="bg-s1/50 p-3 rounded-full
-                     hover:bg-s1 duration-500 hover:-translate-y-1 block text-white"
+                    className="bg-green-800 p-3 rounded-full
+                     hover:bg-white duration-500 hover:text-green-800 hover:-translate-y-1 block text-white"
                     to={link}
                   >
                     {icon}
@@ -35,7 +35,7 @@ function Footer() {
             className=" xl:pl-30 col-span-12 min-[400px]:col-span-6 lg:col-span-3"
             key={id}
           >
-            <h4 className="heading-4 mb-6 pb-2 relative text-white after:absolute after:w-[20%] after:h-[2px] after:bottom-0 after:left-0 after:bg-p1 hover:after:w-[40%] after:duration-500">
+            <h4 className="heading-4 mb-6 pb-2 relative text-white after:absolute after:w-[20%] after:h-[2px] after:bottom-0 after:left-0 after:bg-green-800 hover:after:w-[40%] after:duration-500">
               {name}
             </h4>
             <ul className="flex flex-col gap-4 md:gap-5">
@@ -91,7 +91,7 @@ function Footer() {
       <div className="border-t border-white/10">
         <div className="container py-6 flex justify-between items-center max-md:flex-col gap-6">
           <p className=" max-sm:text-center">
-            Accupay © Copyright {new Date().getFullYear()}. All Rights Reserved.
+            BlackBottom Consulting © Copyright {new Date().getFullYear()}. All Rights Reserved.
           </p>
           <div className="flex justify-end items-center">
             <Link

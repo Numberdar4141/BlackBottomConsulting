@@ -344,22 +344,22 @@ export const footerLinks = [
     links: [
       {
         id: uuidv4(),
-        name: "Accounting Services",
+        name: "Business Plans",
         link: "/services/accounting-services",
       },
       {
         id: uuidv4(),
-        name: "Taxations Services",
+        name: "SWOT Analysis",
         link: "/services/taxation-services",
       },
       {
         id: uuidv4(),
-        name: "Healthcare Services",
+        name: "Website Hosting",
         link: "/services/healthcare-services",
       },
       {
         id: uuidv4(),
-        name: "Dentist Services",
+        name: "Content Creation",
         link: "/services/dentist-services",
       },
     ],
@@ -373,16 +373,16 @@ export const getInTouch = [
     links: [
       {
         id: uuidv4(),
-        name: "admin@mail.com",
-        link: "mailto:example@mail.com",
+        name: "Support@blackbottomconsulting.com",
+        link: "mailto:Support@blackbottomconsulting.com",
         isLink: true,
         icon: React.createElement(MdOutlineEmail),
       },
       {
         id: uuidv4(),
-        name: "+ 123 456 789",
+        name: "+ 800-990-8065",
         isLink: true,
-        link: "tel:(000) 123 456 789",
+        link: "tel:(000) 800-990-8065",
         icon: React.createElement(PiPhoneCallBold),
       },
       {
@@ -704,13 +704,7 @@ export const blogSection = [
 ];
 
 export const contactCard = [
-  {
-    id: uuidv4(),
-    icon: React.createElement(PiBinocularsFill),
-    title: "Compare Accupay",
-    desc: "Explore how AccuPay stands out. Check our comparison.",
-    linkText: "Compare Accupay",
-  },
+ 
   {
     id: uuidv4(),
     icon: React.createElement(PiDesktopFill),
