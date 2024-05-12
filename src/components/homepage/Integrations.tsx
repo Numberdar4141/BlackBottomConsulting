@@ -37,18 +37,18 @@ function Integrations() {
             }  hover:bg-white  group rounded-xl  duration-500 min-h-[250px] lg:min-h-[300px] flex justify-start items-start flex-col p-8`}
           >
             <div
-              className={`text-4xl rounded-full text-green-800 p-4 ${
+              className={`text-4xl rounded-full text-green-800 group-hover:text-white group-hover:bg-green-800 p-4 ${
                 idx % 2 === 0 ? "bg-white" : "bg-white"
               }`}
             >
               {icon}
             </div>
             <h4 className="heading-4 text-white group-hover:text-green-800 pt-6 w-[200px]">{title}</h4>
-            <p className="pt-2 text-white group-hover:text-green-800 ">{desc}</p>
+            <p className="pt-2 text-white group-hover:text-black ">{desc}</p>
             <div className="flex justify-end items-end w-full pt-10 lg:pt-5 text-xl font-medium">
               <Link
                 to={"/services"}
-                className="bg-white p-2 rounded-full shadow2 "
+                className="bg-white p-2 group-hover:bg-green-800 group-hover:text-white rounded-full shadow2 "
               >
                 <GoArrowUpRight />
               </Link>
