@@ -1,49 +1,38 @@
 import { Link } from "react-router-dom";
-import { neverWorry } from "../../data/data";
+
 import FadeLeft from "../animation/FadeLeft";
 import FadeRight from "../animation/FadeRight";
-import img from "/images/H2.png";
+import img from "/images/BBabout.avif";
 
 function NerverWorrySection() {
   return (
-    <section className=" bg-softBg1 stp-30 lg:bg-[url('/images/HB2.png')] sbp-30 max-xxl:overflow-hidden">
+    <section className=" bg-softBg1 stp-30 lg:bg-black sbp-30 max-xxl:overflow-hidden">
       <div className="container grid grid-cols-12 gap-6">
-        <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex justify-center lg:w-[600px ] items-center max-lg:order-2 max-lg:stp-15 overflow-hidden ">
+        <div className="col-span-12 lg:col-span-6 xl:col-span-5 flex justify-center lg:w-[600px] items-center max-lg:order-2 max-lg:stp-15 overflow-hidden ">
           <FadeLeft>
             <img
               src={img}
               alt=""
-              className="hover:scale-110 duration-500 w-full h-full"
+              className=" duration-500 h-[500px] "
             />
           </FadeLeft>
         </div>
 
         <div className="xxl:col-start-7 col-span-12 lg:col-span-6">
           <FadeRight>
-            <h1 className="display-4 ">
-              Never Worry About Your Accounting Again
+            <h1 className="display-4 items-center lg:mt-[80px] justify-center flex text-white ">
+             Who are we?
             </h1>
-            <p className="pt-6 text-bodyText pb-6 xl:pb-8">
-              Experience peace of mind with AccuPay. Our comprehensive
-              accounting services ensure accuracy and compliance, so you can
-              focus on growing your business
+            <p className="pt-6 text-white pb-6 xl:pb-8">
+            At Black Bottom Consulting LLC, we are more than just a consulting company – we are your strategic partner in business success. Our journey began with a commitment to empower businesses, both big and small, to achieve their full potential. With a passion for excellence and a dedication to innovation, we have been at the forefront of helping businesses navigate the complexities of today's ever-evolving market landscape.
+
             </p>
             <div className="flex flex-col gap-6 xl:gap-10 justify-start items-start pb-6 xl:pb-12">
-              {neverWorry.map(({ id, title, desc, icon }) => (
-                <div key={id} className="flex justify-start items-center gap-4">
-                  <div className="text-s1 text-2xl sm:text-3xl p-3 sm:p-4 rounded-full bg-white">
-                    {icon}
-                  </div>
-                  <div className="">
-                    <h4 className="heading-4">{title}</h4>
-                    <p className=" text-bodyText pt-2">{desc}</p>
-                  </div>
-                </div>
-              ))}
+            
             </div>
-            <Link to={"/contact"} className="bg-s2 rounded-full py-3 px-4">
+            <Link to={"/contact"} className="bg-green-800 items-center lg:text-[25px] justify-center flex text-white  rounded-xl py-3 px-4">
               {" "}
-              Contact Us
+              About BlackBottom Consulting
             </Link>
           </FadeRight>
         </div>

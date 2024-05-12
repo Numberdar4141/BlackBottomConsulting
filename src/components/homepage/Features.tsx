@@ -5,16 +5,16 @@ import StaggerEffect from "../animation/StaggerEffectOne";
 
 function Features() {
   return (
-    <section className="bg-black stp-30 sbp-30">
+    <section className="bg-white stp-30 sbp-30">
       <div className="container">
         <div className="flex justify-between items-end gap-6 max-lg:flex-col max-lg:items-start">
           <div className="  max-w-[600px] flex justify-center items-start flex-col">
-            <p className="bg-p1 py-3 px-5 rounded-full text-white ">Features</p>
-            <h1 className="display-4 text-white pt-4 ">
+            <p className="bg-p1 py-3 px-5 rounded-full text-black ">Features</p>
+            <h1 className="display-4 text-black pt-4 ">
               Perfect solutions for your business
             </h1>
           </div>
-          <p className="text-white max-w-[500px]">
+          <p className="text-black max-w-[500px]">
             We’re simplifying every aspect of managing a world-wide team, from
             benefits and equity to working visas and equipment. It’s one
             platform made to get you set up.

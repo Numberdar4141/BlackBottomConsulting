@@ -7,7 +7,7 @@ function Hero() {
   const text = "BlackBottom";
   const animateWord = text.split("");
   return (
-    <section className=" bg-repeat bg-[url('/images/BG1.png')] stp-30  overflow-hidden">
+    <section className=" bg-repeat  stp-30  overflow-hidden">
       
      
       <div className="absolute   bg-white max-w-full lg:w-[1176px]  overflow-hidden"></div>

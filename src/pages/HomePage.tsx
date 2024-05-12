@@ -20,9 +20,10 @@ function HomePage() {
       <Hero />
      <NerverWorrySection/>
      <Features />
+     <CounterSection />
       <SolutionsSection />
      
-      <CounterSection />
+      
       <StepByStepGuide />
       <WhyAccoupay />
       <Integrations />
