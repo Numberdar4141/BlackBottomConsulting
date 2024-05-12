@@ -14,19 +14,19 @@ function Hero() {
       <div className="xxl:ml-[calc((100%-1296px)/2)] lg:max-xxl:py-10 max-xxl:container relative z-20 max-lg:pt-15 text-black grid grid-cols-12 ">
         
         <div className="col-span-12 lg:col-span-5 flex flex-col justify-center gap-2">
-          <p className="uppercase text-base lg:text-xl font-semibold">
+          <p className="uppercase text-base lg:text-xl font-bold">
            Innovative Solutions for Market Challenges{" "}
           </p>
           <div className="display-2 ">
-         <span className="lg:text-[80px]">The </span> 
-            <div className="text-green-800 inline-flex">
+         <span className="lg:text-[80px] font-extrabold">The </span> 
+            <div className="text-green-800 font-extrabold inline-flex">
               {animateWord.map((word, idx) => (
                 <StaggerEffectTwo key={idx} id={idx}>
                   <span>{word}</span>
                 </StaggerEffectTwo>
               ))}
             </div>
-             <span className="lg:text-[80px]">Consulting</span>
+             <span className="lg:text-[80px] font-extrabold">Consulting</span>
           </div>
           <p className="max-w-[550px]">
           At Black Bottom Consulting, we're dedicated to empowering businesses with innovative solutions, serving as your strategic partner for success
