@@ -26,7 +26,7 @@ function Hero() {
                 </StaggerEffectTwo>
               ))}
             </div>
-             <span className="lg:text-[80px]"> Consulting</span>
+             <span className="lg:text-[80px]">Consulting</span>
           </div>
           <p className="max-w-[550px]">
           At Black Bottom Consulting, we're dedicated to empowering businesses with innovative solutions, serving as your strategic partner for success
