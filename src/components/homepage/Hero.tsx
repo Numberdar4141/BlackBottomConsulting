@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import StaggerEffectTwo from "../animation/StaggerEffectTwo";
 
-import heroIllus from "/images/H1.png";
+import heroIllus from "/images/Hb4.png";
 
 function Hero() {
-  const text = "BlackBottom";
+  const text = "Consulting";
   const animateWord = text.split("");
   return (
-    <section className=" bg-repeat  stp-30  overflow-hidden">
+    <section className=" bg-repeat  stp-25 overflow-hidden">
       
      
       <div className="absolute   bg-white max-w-full lg:w-[1176px]  overflow-hidden"></div>
@@ -18,7 +18,7 @@ function Hero() {
            Innovative Solutions for Market Challenges{" "}
           </p>
           <div className="display-2 ">
-         <span className="lg:text-[80px] font-extrabold">The </span> 
+         <span className="lg:text-[80px] font-extrabold">BlackBottom </span> 
             <div className="text-green-800 font-extrabold inline-flex">
               {animateWord.map((word, idx) => (
                 <StaggerEffectTwo key={idx} id={idx}>
@@ -26,7 +26,7 @@ function Hero() {
                 </StaggerEffectTwo>
               ))}
             </div>
-             <span className="lg:text-[80px] font-extrabold">Consulting</span>
+             <span className="lg:text-[80px] font-extrabold"></span>
           </div>
           <p className="max-w-[550px]">
           At Black Bottom Consulting, we're dedicated to empowering businesses with innovative solutions, serving as your strategic partner for success
@@ -42,7 +42,7 @@ function Hero() {
           </div>
         </div>
         <div className="col-span-12 lg:col-span-6 lg:col-start-6">
-          <img src={heroIllus} className="w-[800px]   " alt="" />
+          <img src={heroIllus} className="lg:w-[800px]  lg:h-[820px]  " alt="" />
         </div>
       </div>
     </section>

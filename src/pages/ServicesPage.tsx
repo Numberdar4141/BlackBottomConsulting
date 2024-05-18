@@ -6,13 +6,13 @@ import StepByStepGuide from "../components/homepage/StepByStepGuide";
 import WhyAccoupay from "../components/homepage/WhyAccoupay";
 import CoreServices from "../components/services/CoreServices";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
-import breadcrumpIllus from "/images/breadcrumb_img_1.png";
+import breadcrumpIllus from "/images/SB1.png";
 function ServicesPage() {
   return (
     <main>
       <BreadcrumbSection
         img={breadcrumpIllus}
-        pageName="Services"
+        pageName="Our Services"
         pageDesc="Welcome to AccuPay, your trusted partner for comprehensive financial
             solutions. Explore our range of services tailored to meet your
             business needs."

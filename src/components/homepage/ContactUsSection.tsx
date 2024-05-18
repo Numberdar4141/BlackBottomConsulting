@@ -2,7 +2,7 @@ import FadeDown from "../animation/FadeDown";
 import FadeRight from "../animation/FadeRight";
 import FadeTop from "../animation/FadeTop";
 
-import contactIllus from "/images/contact_illus.png";
+import contactIllus from "/images/lap.png";
 
 function ContactUsSection() {
   return (
@@ -27,7 +27,7 @@ function ContactUsSection() {
          
         </div>
         <div className="w-full lg:max-xxl:w-1/2 self-stretch flex justify-center max-xxl:items-center lg:pt-10">
-          <img src={contactIllus} alt="" className=" object-cover" />
+          <img src={contactIllus} alt=""  className="  object-cover" />
         </div>
       </div>
     </div>

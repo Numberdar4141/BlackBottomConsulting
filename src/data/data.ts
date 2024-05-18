@@ -112,10 +112,39 @@ export const headerMenu = [
     link: "/",
     isSubmenu: false,
   },
-
   {
     id: uuidv4(),
-    name: "Services",
+    name: "About Us",
+    link: "/about",
+    isSubmenu: false,
+  },
+
+
+ 
+
+  // {
+  //   id: uuidv4(),
+  //   name: "About Us",
+  //   link:"/about",
+  //   isSubmenu: false,
+  //   submenu: [
+  //     {
+  //       id: uuidv4(),
+  //       name: "Blog Page",
+  //       link: "/blog",
+  //     },
+
+  //     {
+  //       id: uuidv4(),
+  //       name: "Blog Details",
+  //       link: "/blog-details",
+  //     },
+  //   ],
+  // },
+  {
+    id: uuidv4(),
+    name: " Our Services",
+    link:"/services",
     isSubmenu: false,
     submenu: [
       {
@@ -155,132 +184,15 @@ export const headerMenu = [
       },
     ],
   },
-  {
-    id: uuidv4(),
-    name: "Shop",
-    isSubmenu: false,
-    submenu: [
-      {
-        id: uuidv4(),
-        name: "Shop Page",
-        link: "/shop",
-      },
-      {
-        id: uuidv4(),
-        name: "Shop Details",
-        link: "/shop/shop-details",
-      },
-      {
-        id: uuidv4(),
-        name: "Cart",
-        link: "/cart",
-      },
-      {
-        id: uuidv4(),
-        name: "Checkout",
-        link: "/checkout",
-      },
-    ],
-  },
 
   {
     id: uuidv4(),
-    name: "Blog",
-    isSubmenu: false,
-    submenu: [
-      {
-        id: uuidv4(),
-        name: "Blog Page",
-        link: "/blog",
-      },
-
-      {
-        id: uuidv4(),
-        name: "Blog Details",
-        link: "/blog-details",
-      },
-    ],
-  },
-
-  {
-    id: uuidv4(),
-    name: "Contact",
+    name: "Contact Us",
     link: "/contact",
     isSubmenu: false,
   },
 
-  {
-    id: uuidv4(),
-    name: "Pages",
-    isSubmenu: false,
-    submenu: [
-      {
-        id: uuidv4(),
-        name: "Appointment",
-        link: "/appointment",
-      },
-      {
-        id: uuidv4(),
-        name: "Case Study",
-        link: "/case-study",
-      },
-      {
-        id: uuidv4(),
-        name: "Case Study Detials",
-        link: "/case-study/case-study-details",
-      },
-      {
-        id: uuidv4(),
-        name: "Our Team",
-        link: "/team",
-      },
-      {
-        id: uuidv4(),
-        name: "Team Details",
-        link: "/team/team-details",
-      },
-      {
-        id: uuidv4(),
-        name: "About",
-        link: "/about",
-      },
-      {
-        id: uuidv4(),
-        name: "Pricing",
-        link: "/pricing",
-      },
-      {
-        id: uuidv4(),
-        name: "FAQ Page",
-        link: "/faq",
-      },
-      {
-        id: uuidv4(),
-        name: "Login",
-        link: "/login",
-      },
-      {
-        id: uuidv4(),
-        name: "Register",
-        link: "/register",
-      },
-      {
-        id: uuidv4(),
-        name: "Privacy Policy",
-        link: "/privacy-policy",
-      },
-      {
-        id: uuidv4(),
-        name: "Terms & Conditions",
-        link: "/terms-conditions",
-      },
-      {
-        id: uuidv4(),
-        name: "Error",
-        link: "/error",
-      },
-    ],
-  },
+
 ];
 
 export const socialLinks = [
@@ -387,7 +299,7 @@ export const getInTouch = [
       },
       {
         id: uuidv4(),
-        name: "255 Sheet, City Name Home Land, NY",
+        name: "10610 Shoemaker St Detroit MI 48213 ",
         isLink: false,
         icon: React.createElement(MdOutlineLocationOn),
       },
@@ -410,7 +322,7 @@ export const teamContactDetails = [
   },
   {
     id: uuidv4(),
-    name: "255 Sheet, City Name Home Land, NY",
+    name: "10610 Shoemaker St Detroit MI 48213",
     link: "",
     icon: React.createElement(PiMapPinFill),
   },

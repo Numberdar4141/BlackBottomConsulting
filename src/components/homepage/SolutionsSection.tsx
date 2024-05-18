@@ -3,7 +3,7 @@ import StaggerEffect from "../animation/StaggerEffectOne";
 import SectionHeadingCenter from "../global/SectionHeadingCenter";
 
 
-import solutionIllus from "/images/solution_illustrations.png";
+import solutionIllus from "/images/Digital.png";
 function SolutionsSection() {
   return (
     <section className="stp-30 sbp-30 relative">

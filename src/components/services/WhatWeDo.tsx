@@ -1,6 +1,6 @@
 import { whatWeDo } from "../../data/data";
 import SectionHeadingCenter from "../global/SectionHeadingCenter";
-import img from "/images/what_we_do.png";
+import img from "/images/Dig1.png";
 
 function WhatWeDo() {
   return (

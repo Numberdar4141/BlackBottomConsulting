@@ -164,9 +164,14 @@ p {
   .stp-30 {
     @apply pt-16 md:pt-24 xl:pt-30;
   }
+  .stp-25 {
+    @apply pt-14 md:pt-20 xl:pt-20;
+  }
+  
   .sbp-30 {
     @apply pb-16 md:pb-24 xl:pb-30;
   }
+  
 
   .stp-15 {
     @apply pt-8 md:pt-12 xl:pt-15;

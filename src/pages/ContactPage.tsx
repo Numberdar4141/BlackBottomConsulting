@@ -9,7 +9,7 @@ import { ToastContainer, toast } from "react-toastify";
 import CTASectiont from "../components/homepage/CTASectiont";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import { contactPageCard } from "../data/data";
-import breadcrumpIllus from "/images/breadcrumb_img_21.png";
+import breadcrumpIllus from "/images/CB2.png";
 import locationImg from "/images/contact_page_img.png";
 
 function ContactPage() {
@@ -34,7 +34,7 @@ function ContactPage() {
     <main>
       <BreadcrumbSection
         img={breadcrumpIllus}
-        pageName="Course"
+        pageName="Contact Us"
         pageDesc="Connect with us for expert accounting and payroll services. Reach out via the form or contact information below."
         pageTitle="Connect With Us"
       />
