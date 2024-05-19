@@ -11,13 +11,11 @@ function WhatWeDoTaxation() {
               What We Do
             </p>
             <h1 className="display-4  pt-4 ">
-              Why Choose AccuPay for Taxation Services?
+              Why Choose BlackBottom for Consulting?
             </h1>
           </div>
           <p className="text-white max-w-[500px]">
-            Accounting, Taxation & Payroll Processing Services refer to a range
-            of professional services provided by accounting firms or specialized
-            firms that assist businesses
+          Choose Blackbottom Consulting for expert guidance, personalized solutions, and reliable support. Our dedicated team ensures tailored strategies to fuel your business growth
           </p>
         </div>
         <div className="grid grid-cols-12 gap-6 stp-15">

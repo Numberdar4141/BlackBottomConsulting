@@ -17,9 +17,7 @@ function ServicesPage() {
       <BreadcrumbSection
         img={breadcrumpIllus}
         pageName="Our Services"
-        pageDesc="Welcome to AccuPay, your trusted partner for comprehensive financial
-            solutions. Explore our range of services tailored to meet your
-            business needs."
+        pageDesc="Welcome to Blackbottom Consulting, your reliable ally for tailored business solutions. Explore our diverse range of services designed to meet your unique needs"
         pageTitle="Our All Services"
       />
       <CoreServices />

@@ -21,8 +21,8 @@ function StorySection() {
           <div className="flex justify-start items-center gap-3">
             <img src={img} alt="" className="rounded-full" />
             <div className="">
-              <p>Sa Kibb</p>
-              <p className=" text-bodyText text-sm">CEO Accupay</p>
+              <p>nikk</p>
+              <p className=" text-bodyText text-sm">CEO BlackBottom</p>
             </div>
           </div>
         </div>
