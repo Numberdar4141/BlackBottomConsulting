@@ -1,14 +1,16 @@
 import CTASectiont from "../components/homepage/CTASectiont";
 import ContactUsSection from "../components/homepage/ContactUsSection";
-import FaqSection from "../components/homepage/FaqSection";
-import PricingSection from "../components/homepage/PricingSection";
-import StepByStepGuide from "../components/homepage/StepByStepGuide";
+import ContactSection from "../components/homepage/ContactSection";
+
 import WhyAccoupay from "../components/homepage/WhyAccoupay";
 import CoreServices from "../components/services/CoreServices";
-import WhatWeDoTaxation from "../components/services/WhatWeDoTaxation";
+import UnlimitedPayrolls from "../components/services/UnlimitedPayrolls";
+
 
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import breadcrumpIllus from "/images/SB1.png";
+import ManageHealthSection from "../components/services/ManageHealthSection";
+import DedicatedSupport from "../components/services/DedicatedSupport";
 function ServicesPage() {
   return (
     <main>
@@ -21,12 +23,12 @@ function ServicesPage() {
         pageTitle="Our All Services"
       />
       <CoreServices />
-     <WhatWeDoTaxation/>
+    <DedicatedSupport/>
+     <UnlimitedPayrolls/>
       <WhyAccoupay />
-      <StepByStepGuide />
+     <ManageHealthSection/>
       <ContactUsSection />
-      <PricingSection />
-      <FaqSection />
+      <ContactSection isPaddingTop={true} />
       <CTASectiont />
     </main>
   );

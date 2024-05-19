@@ -915,20 +915,20 @@ export const whtaWeDoTaxationData = [
   {
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
-    title: "Expert Tax Professionals",
-    desc: "Our team of tax professionals brings extensive knowledge and expertise to handle various tax scenarios.",
+    title: "Digital Solutions & Automation ",
+    desc: "Streamline your operations with our digital solutions and automation services. From process automation to implementing digitized solutions, we optimize your business processes. Save time and resources while improving efficiency and productivity.",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Personalized Consultations",
-    desc: "We understand that every business is unique. Our personalized consultations ensure that our tax services.",
+    title: "Financial Risk Management ",
+    desc: "Our risk management experts help you assess and mitigate financial risks associated with your business. We identify potential risks, develop risk mitigation strategies, and establish financial controls. Safeguard your investments and ensure long-term sustainability with our support. ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiLightbulbFilamentFill),
-    title: "Strategic Advice",
-    desc: "Beyond compliance, we offer strategic advice to help you make informed financial decisions that benefit your business.",
+    title: "Market Research and Analysis  ",
+    desc: "Benefit from our in-depth market research and competitor analysis. We provide data-driven insights to help you make informed decisions. Stay ahead of market trends and gain a competitive edge with our comprehensive market analytics. ",
   },
 ];
 
@@ -1011,22 +1011,22 @@ export const manageHealthItems = [
   {
     id: uuidv4(),
     icon: React.createElement(PiDeviceMobileFill),
-    title: "Mobile Payroll Processing",
+    title: "Service & Payments",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiTimerFill),
-    title: "Real-Time Compliance",
+    title: "Terms of Contract Termination ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiWalletFill),
-    title: "Billing and Invoicing",
+    title: "Notice & Renewal",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiChartLineFill),
-    title: "Performance Analytics",
+    title: "Delivering Consistent Results ",
   },
 ];
 

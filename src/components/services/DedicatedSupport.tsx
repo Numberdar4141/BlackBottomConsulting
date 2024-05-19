@@ -1,9 +1,9 @@
 import LinkButton from "../ui/LinkButton";
-import img from "/images/dedicated_img.png";
+import img from "/images/graph.png";
 
 function DedicatedSupport() {
   return (
-    <section className="stp-30 sbp-30 bg-softBg1">
+    <section className="stp-30 sbp-30 text-white bg-black">
       <div className="container grid grid-cols-12 gap-6">
         <div className="col-span-12 md:col-span-6 lg:col-span-5 max-md:order-2 overflow-hidden">
           <img
@@ -13,15 +13,10 @@ function DedicatedSupport() {
           />
         </div>
         <div className="col-span-12 md:col-span-6 lg:col-start-7 flex justify-center items-start flex-col">
-          <p className="bg-p1 py-3 px-5 rounded-full text-white ">
-            Dedicated Support
-          </p>
-          <h2 className="display-4 pt-4 pb-6">Run a Smarter Dental Practice</h2>
-          <p className=" text-bodyText pb-8">
-            At Accupay, we don’t think payroll should feel like pulling teeth.
-            That’s why we’ve made the process as painless as possible. But if
-            you should have any questions, our best-in-class support team is
-            just a call, chat, or email away.
+         
+          <h2 className="display-4 lg:text-[50px] pt-4 pb-6">We are the powerhouse of the world’s fastest economies</h2>
+          <p className=" text-white pb-8">
+          Our built-in commission tool gets your agents paid quickly and accurately every time they close. Pay your salaried employees on AutoPilot, and easily approve hours for any support staff and contractors.
           </p>
           <LinkButton link="/contact" text="Contact Us" />
         </div>

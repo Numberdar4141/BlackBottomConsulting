@@ -1,6 +1,6 @@
 import FadeLeft from "../animation/FadeLeft";
 import FadeRight from "../animation/FadeRight";
-import img from "/images/unlimited_payrolls_img.png";
+import img from "/images/SWOT.png";
 
 function UnlimitedPayrolls() {
   return (
@@ -9,18 +9,14 @@ function UnlimitedPayrolls() {
         <div className="col-span-12 md:col-span-6">
           <FadeLeft>
             <div className="  flex justify-start items-start flex-col">
-              <p className="bg-p1 py-3 px-5 rounded-full text-white ">
-                Unlimited Payrolls
-              </p>
-              <h2 className="display-4 pt-4 pb-6">
-                Covering Payroll Hourly, Salaried, or Commission
+              
+              <h2 className="display-4 lg:text-[50px] pt-4 pb-6">
+              SWOT ANALYSIS : Harnessing Strategic Insights
+
+
               </h2>
               <p className=" text-bodyText">
-                Our built-in commission tool gets your agents paid quickly and
-                accurately every time they close. Pay your salaried employees on
-                AutoPilot, and easily approve hours for any support staff and
-                contractors.
-              </p>
+              SWOT analysis, a powerful tool for strategic planning, allows us to uncover your business's strengths, weaknesses, opportunities, and threats. By examining these critical factors, we gain valuable insights that help chart a course for your business's success.              </p>
             </div>
           </FadeLeft>
         </div>
