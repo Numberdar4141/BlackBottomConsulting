@@ -4,7 +4,7 @@ import FadeLeft from "../animation/FadeLeft";
 import FadeRight from "../animation/FadeRight";
 import FadeTop from "../animation/FadeTop";
 import StaggerEffect from "../animation/StaggerEffectOne";
-import img from "/images/manage_health_section_img.png";
+import img from "/images/invest.png";
 
 function ManageHealthSection() {
   return (
