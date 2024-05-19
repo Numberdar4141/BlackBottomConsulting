@@ -10,7 +10,7 @@ import CTASectiont from "../components/homepage/CTASectiont";
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import { contactPageCard } from "../data/data";
 import breadcrumpIllus from "/images/CB2.png";
-import locationImg from "/images/contact_page_img.png";
+import locationImg from "/images/BBabout1.jpeg";
 
 function ContactPage() {
   const [firstName, setFirstName] = useState("");
@@ -149,29 +149,14 @@ function ContactPage() {
               </div>
               <div className="">
                 <h4 className="heading-4 pb-1">New York, USA:</h4>
-                <p>29 Park Avenue New York, New York 172</p>
+                <p>10610 Shoemaker St Detroit MI 48213
+</p>
               </div>
             </li>
 
-            <li className="flex justify-start items-start gap-3  ">
-              <div className="bg-mainTextColor text-white text-3xl p-3 rounded-full">
-                <PiMapPinFill />
-              </div>
-              <div className="">
-                <h4 className="heading-4 pb-1">Switzerland, Bern:</h4>
-                <p>30 Stamford Street,London SE1 9LQ</p>
-              </div>
-            </li>
+           
 
-            <li className="flex justify-start items-start gap-3  ">
-              <div className="bg-mainTextColor text-white text-3xl p-3 rounded-full">
-                <PiMapPinFill />
-              </div>
-              <div className="">
-                <h4 className="heading-4 pb-1">New York, USA:</h4>
-                <p>891 Daudkandi, Chattogram 58201</p>
-              </div>
-            </li>
+           
           </ul>
         </div>
 
@@ -179,7 +164,7 @@ function ContactPage() {
           <img
             src={locationImg}
             alt=""
-            className="hover:scale-110 duration-500 w-full h-full"
+            className=" duration-500 w-full h-[600px] rounded-xl "
           />
         </div>
       </section>
