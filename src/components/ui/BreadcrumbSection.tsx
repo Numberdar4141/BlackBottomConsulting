@@ -65,7 +65,7 @@ function BreadcrumbSection({
             <img
               src={img}
               alt=""
-              className=" object-fit lg:w-[450px] max-sm:max-h-[300px]"
+              className=" object-fit lg:w-[450px] lg:h-[450px] rounded-t-xl max-sm:max-h-[300px]"
             />
           </FadeRight>
         </div>

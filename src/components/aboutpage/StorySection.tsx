@@ -6,8 +6,8 @@ function StorySection() {
     <section className="stp-30 sbp-30">
       <div className="container grid grid-cols-12 max-lg:gap-6">
         <div className="col-span-12 md:col-span-6 lg:col-span-5 flex flex-col justify-center items-start">
-          <p className="bg-p1 py-3 px-5 rounded-full text-white ">
-            Accupay Story
+          <p className="bg-green-800 py-3 px-5 rounded-xl text-white ">
+            BlackBottom Story
           </p>
           <h1 className="display-4 pt-4 pb-6">
             In 2012, an exciting journey began with a daring vision.

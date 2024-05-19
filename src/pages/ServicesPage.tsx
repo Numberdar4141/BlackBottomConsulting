@@ -5,6 +5,8 @@ import PricingSection from "../components/homepage/PricingSection";
 import StepByStepGuide from "../components/homepage/StepByStepGuide";
 import WhyAccoupay from "../components/homepage/WhyAccoupay";
 import CoreServices from "../components/services/CoreServices";
+import WhatWeDoTaxation from "../components/services/WhatWeDoTaxation";
+
 import BreadcrumbSection from "../components/ui/BreadcrumbSection";
 import breadcrumpIllus from "/images/SB1.png";
 function ServicesPage() {
@@ -19,6 +21,7 @@ function ServicesPage() {
         pageTitle="Our All Services"
       />
       <CoreServices />
+     <WhatWeDoTaxation/>
       <WhyAccoupay />
       <StepByStepGuide />
       <ContactUsSection />

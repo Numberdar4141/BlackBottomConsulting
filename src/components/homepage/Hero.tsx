@@ -4,7 +4,7 @@ import StaggerEffectTwo from "../animation/StaggerEffectTwo";
 import heroIllus from "/images/Hb4.png";
 
 function Hero() {
-  const text = "Consulting";
+  const text = "Business";
   const animateWord = text.split("");
   return (
     <section className=" bg-repeat  stp-25 overflow-hidden">
@@ -18,7 +18,7 @@ function Hero() {
            Innovative Solutions for Market Challenges{" "}
           </p>
           <div className="display-2 ">
-         <span className="lg:text-[80px] font-extrabold">BlackBottom </span> 
+         <span className="lg:text-[70px] font-extrabold">Empowering </span> 
             <div className="text-green-800 font-extrabold inline-flex">
               {animateWord.map((word, idx) => (
                 <StaggerEffectTwo key={idx} id={idx}>
@@ -26,7 +26,8 @@ function Hero() {
                 </StaggerEffectTwo>
               ))}
             </div>
-             <span className="lg:text-[80px] font-extrabold"></span>
+            <span className="lg:text-[70px] font-extrabold">Success </span> 
+             <span className="lg:text-[70px] font-extrabold">Together</span>
           </div>
           <p className="max-w-[550px]">
           At Black Bottom Consulting, we're dedicated to empowering businesses with innovative solutions, serving as your strategic partner for success

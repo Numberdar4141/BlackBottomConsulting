@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import { coreServices } from "../../data/data";
 import StaggerEffect from "../animation/StaggerEffectOne";
 
@@ -17,18 +17,18 @@ function CoreServices() {
           </div>
         </div>
         <div className="grid grid-cols-12 stp-15 gap-6">
-          {coreServices.map(({ id, icon, title, desc, link }, idx) => (
+          {coreServices.map(({ id, icon, title, desc}, idx) => (
             <div className="col-span-12 sm:col-span-6 md:col-span-4 " key={id}>
               <StaggerEffect id={idx}>
-                <div className="flex justify-start items-start flex-col p-6 lg:p-10 group border border-strokeColor hover:bg-s2 hover:border-mainTextColor duration-500">
-                  <div className="bg-softBg1 p-4 rounded-full text-s1 group-hover:bg-mainTextColor group-hover:text-white duration-500 text-5xl">
+                <div className="flex justify-start items-start flex-col p-6 shadow-xl rounded-xl  lg:p-10 group border hover:shadow-2xl border-strokeColor  duration-500">
+                  <div className="bg-softBg1 p-4 rounded-full text-green-800 group-hover:bg-mainTextColor group-hover:text-white duration-500 text-5xl">
                     {icon}
                   </div>
-                  <Link to={link}>
-                    <h4 className="heading-4 pb-5 pt-8 hover:underline duration-300">
+                 
+                    <h4 className="heading-4 pb-5 pt-8  duration-300">
                       {title}
                     </h4>
-                  </Link>
+                 
                   <p className=" text-bodyText lg:pr-4">{desc}</p>
                 </div>
               </StaggerEffect>

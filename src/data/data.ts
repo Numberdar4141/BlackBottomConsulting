@@ -674,20 +674,21 @@ export const integrationsCard = [
 ];
 
 export const storyData = [
-  {
-    id: uuidv4(),
-    title: "Who We Are",
-    desc: "AccuPay has been at the forefront of delivering innovative financial solutions. Our journey began with a vision to simplify financial processes for businesses of all sizes. Today, we stand proud as a trusted partner, ",
-  },
+ 
   {
     id: uuidv4(),
     title: "Our Mission",
-    desc: "AccuPay is on a mission to empower businesses by providing reliable, efficient, and innovative financial services. We strive to be your go-to partner for all your accounting and payroll needs, enabling you to focus on what you do best.",
+    desc: "Our mission is clear: to provide businesses with the tools, strategies, and support they need to thrive in a competitive world. We believe in the power of knowledge, and we use our expertise to guide businesses towards informed decisions, strategic growth, and financial prosperity.",
+  },
+  {
+    id: uuidv4(),
+    title: "Our Vision",
+    desc: "Our vision is to be the catalyst for positive change in the business world. We aim to be the driving force behind your business's success story, helping you reach new heights, overcome challenges, and seize opportunities in the ever-evolving marketplace..",
   },
   {
     id: uuidv4(),
     title: "Expert Team",
-    desc: "Our team of experienced professionals brings a wealth of knowledge to every client interaction. From payroll processing to financial advisory, we have the expertise to guide your business.",
+    desc: "At Black Bottom Consulting LLC, our expert team comprises seasoned professionals dedicated to empowering businesses to thrive in today's dynamic marketplace. With a wealth of experience and a commitment to excellence, our consultants bring a diverse range of expertise to the table",
   },
 ];
 
@@ -695,27 +696,22 @@ export const ourValues = [
   {
     id: uuidv4(),
     icon: React.createElement(PiHandshakeFill),
-    title: "Integrity",
-    desc: "We are transparent and do the right thing for the right reason",
+    title: "Years of Experience",
+    desc: "Proven track record in the investment industry",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiCheckCircleFill),
-    title: "Accountability",
-    desc: "We take ownership of outcomes and deliver on our commitments",
+    title: "Diverse Investment Portfolio",
+    desc: "Investing in a wide range of industries and sectors",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiUsersThreeFill),
-    title: "Diversity",
-    desc: "We seek and leverage differences and unique perspectives",
+    title: "Impressive ROI",
+    desc: "Consistently delivering high returns for our clients",
   },
-  {
-    id: uuidv4(),
-    icon: React.createElement(PiUserFill),
-    title: "Customer Centricity",
-    desc: "We start with the customer in everything we do",
-  },
+ 
 ];
 
 export const awardsData = [
@@ -755,44 +751,41 @@ export const coreServices = [
   {
     id: uuidv4(),
     icon: React.createElement(PiUserFill),
-    title: "Accounting Services",
-    link: "/services/accounting-services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+    title: "Fundraising & Capital Acquisition",
+ 
+    desc: "We specialize in raising the necessary funds to fuel your business growth. From preparing compelling pitch decks to negotiating term sheets, we guide you through every step. Whether through venture capital, private equity, angel investors, or crowdfunding, we've got you covered.    ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHandCoinsFill),
-    title: "Payroll Processing",
-    link: "/services/payroll-processing",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+    title: "Financial Analysis & Due Diligence",
+   
+    desc: "Our team provides comprehensive financial analysis and due diligence services. We assess the financial health and viability of your business through a thorough review of financial state ments, market trends, and industry benchmarks. Gain valuable insights to make informed funding decisions. ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiFileFill),
-    title: "Taxation services",
-    link: "/services/taxation-services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+    title: "Investor Relations & Communications ",
+    desc: "We understand the importance of effective communication with investors. Our team will help you develop investor relations strategies, craft compelling investor presentations, and facilitate investor meetings and roadshows. Build strong relationships and resonate with potential investors.    ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiBuildingsFill),
-    title: "Real Estate Services",
-    link: "/services/real-state-services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+    title: "Business Valuation & Financial Modeling",
+    desc: "Our financial experts conduct rigorous business valuation exercises to determine the fair value of your company. We use advanced financial modeling techniques to create accurate projections and scenarios. Present a compelling investment case to potential investors with our expertise. ",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiHeartbeatFill),
-    title: "Healthcare Services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
-    link: "/services/healthcare-services",
+    title: "Pitch Deck & Business Plan Development",
+    desc: "Collaborate with us to develop a persuasive pitch deck and business plan. We showcase your unique value proposition, market opportunity, and growth potential. Articulate your vision and differentiate your business from competitors, increasing your chances of securing funding. ",
+   
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiToothFill),
-    title: "Dentist Services",
-    link: "/services/dentist-services",
-    desc: "Efficient payroll management is at the heart of our services. Experience seamless payroll processing,",
+    title: "Strategic Partnerships & Alliances",
+    desc: "We assist you in identifying strategic partners and alliances that provide financial support and access to new markets, technologies, or distribution channels. Our extensive network of industry contacts allows us to connect you with partners who can contribute to your business's growth. ",
   },
 ];
 
