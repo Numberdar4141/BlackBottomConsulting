@@ -30,7 +30,7 @@ function NerverWorrySection() {
             <div className="flex flex-col gap-6 xl:gap-10 justify-start items-start pb-6 xl:pb-12">
             
             </div>
-            <Link to={"/contact"} className="bg-green-800 items-center lg:text-[25px] justify-center flex text-white  rounded-xl py-3 px-4">
+            <Link to={"/about"} className="bg-green-800 items-center lg:text-[25px] justify-center flex text-white  rounded-xl py-3 px-4">
               {" "}
               About BlackBottom Consulting
             </Link>

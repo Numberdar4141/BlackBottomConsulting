@@ -31,7 +31,7 @@ function Features() {
                   <p className="text-bodyText group-hover:text-white pb-1">{desc1}</p>
                   <p className="text-bodyText group-hover:text-white pb-6">{desc2}</p>
                   <Link
-                    to={"/contact"}
+                    to={"/services"}
                     className="flex justify-center rounded-lg p-3 text-white  group-hover:bg-white group-hover:text-green-800 bg-green-800 items-center gap-2 font-medium"
                   >
                     Learn more <GoArrowRight />

@@ -1349,22 +1349,22 @@ export const contactPageCard = [
   {
     id: uuidv4(),
     icon: React.createElement(PiEnvelopeFill),
-    name: "Chat to Sales",
-    linkText: "accupay@mail.com",
-    link: "mailto:accupay@gmail.com",
+    name: "Chat to Expert",
+    linkText: "Support@blackbottomconsulting.com",
+    link: "mailto:Support@blackbottomconsulting.com",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiPhoneCallFill),
     name: "Contact Us",
-    linkText: "+9190-8687-3345-120",
-    link: "tel:+9190-8687-3345-120",
+    linkText: "800-990-8065 ",
+    link: "tel:+1-800-990-8065",
   },
   {
     id: uuidv4(),
     icon: React.createElement(PiMapPinFill),
     name: "Visit Our Office",
-    address: "London 2HX, United Kingdom",
+    address: "10610 Shoemaker St Detroit MI 48213",
   },
 ];
 

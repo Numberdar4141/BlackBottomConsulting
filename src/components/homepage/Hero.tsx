@@ -34,7 +34,7 @@ function Hero() {
           </p>
           <div className="flex justify-start items-center gap-4 pt-6 lg:pt-8 pb-15">
             <Link
-              to={"/contact"}
+              to={"/services"}
               className="font-medium uppercase bg-green-800 py-2 lg:py-3 px-4 lg:px-6 rounded-xl text-white"
             >
              BlackBottom Consulting Services

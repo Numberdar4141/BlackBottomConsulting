@@ -40,16 +40,16 @@ function ContactPage() {
       />
 
       <section className="container grid grid-cols-12 stp-30 sbp-30">
-        <div className=" col-span-12 lg:col-span-8 lg:col-start-3 grid grid-cols-12 gap-4 lg:gap-6">
+        <div className=" col-span-12 lg:col-span-12 lg:col-start-2 grid grid-cols-12 gap-4 lg:gap-3">
           {contactPageCard.map(
             ({ id, icon, name, link, address, linkText }) => (
               <div
-                className="flex flex-col justify-start items-start p-4 lg:p-8 bg-p1 text-white w-full col-span-12 sm:col-span-4 border border-p1 hover:bg-s2 hover:text-mainTextColor hover:border-mainTextColor duration-500 group"
+                className="flex flex-col justify-start items-start p-4 lg:p-8 bg-green-800 rounded-xl shadow-xl text-white w-full col-span-12 sm:col-span-4 border  hover:bg-white hover:text-mainTextColor hover:border-mainTextColor duration-500 group"
                 key={id}
               >
                 <div
                   key={id}
-                  className=" bg-white text-p1 text-2xl rounded-full p-4 group-hover:text-white group-hover:bg-mainTextColor duration-500"
+                  className=" bg-white text-green-800 text-2xl rounded-full p-4 group-hover:text-white group-hover:bg-mainTextColor duration-500"
                 >
                   {icon}
                 </div>
@@ -125,7 +125,7 @@ function ContactPage() {
                 <input type="checkbox" className=" " />
                 <p>Subscribe to our newsletter.</p>
               </label>
-              <button className="py-2 sm:py-3 px-4 sm:px-6 bg-p1 text-white block text-center border border-p1 hover:bg-s2 hover:border-mainTextColor hover:text-mainTextColor duration-500">
+              <button className="py-2 sm:py-3 px-4 sm:px-6 bg-green-800 rounded-xl text-white block text-center border border-p1 hover:bg-s2 hover:border-mainTextColor hover:text-mainTextColor duration-500">
                 Submit
               </button>
             </div>
