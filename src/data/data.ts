@@ -292,9 +292,9 @@ export const getInTouch = [
       },
       {
         id: uuidv4(),
-        name: "+ 800-990-8065",
+        name: "(+1) 800-990-8065",
         isLink: true,
-        link: "tel:(000) 800-990-8065",
+        link: "tel:(+1) 800-990-8065",
         icon: React.createElement(PiPhoneCallBold),
       },
       {
@@ -1357,8 +1357,8 @@ export const contactPageCard = [
     id: uuidv4(),
     icon: React.createElement(PiPhoneCallFill),
     name: "Contact Us",
-    linkText: "800-990-8065 ",
-    link: "tel:+1-800-990-8065",
+    linkText: "(+1) 800-990-8065 ",
+    link: "tel:(+1) 800-990-8065",
   },
   {
     id: uuidv4(),

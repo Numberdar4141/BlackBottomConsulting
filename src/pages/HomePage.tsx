@@ -10,7 +10,7 @@ import Integrations from "../components/homepage/Integrations";
 
 import SolutionsSection from "../components/homepage/SolutionsSection";
 import StepByStepGuide from "../components/homepage/StepByStepGuide";
-
+import Features1 from "../components/homepage/Features1"
 import WhyAccoupay from "../components/homepage/WhyAccoupay";
 import NerverWorrySection from "../components/services/NerverWorrySection";
 import WhatWeDo from "../components/services/WhatWeDo";
@@ -20,7 +20,9 @@ function HomePage() {
     <main>
       <Hero />
      <NerverWorrySection/>
+ 
      <Features />
+     <Features1/>
      <CounterSection />
      <StepByStepGuide />
      <WhyAccoupay />

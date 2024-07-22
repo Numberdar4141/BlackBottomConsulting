@@ -121,18 +121,18 @@ function Header() {
               <span className="bg-green-800 rounded-full text-white p-2 md:p-3  text-lg lg:text-2xl">
                 <PiPhoneCallBold />
               </span>
-              <Link to={"tel:+800-990-8065"} className=" p-1 max-xl:hidden">
-              800-990-8065
+              <Link to={"tel:(+1) 800-990-8065"} className=" p-1 max-xl:hidden">
+              (+1) 800-990-8065
               </Link>
             </div>
-            <LinkButton link="/contact" text="Get Started" />
+            <LinkButton link="https://members.blackbottomconsulting.com/contact-us-5405-9699" text="Get Started" />
           </div>
         </div>
-      </div>
+      </div>      
       <MobileMenu
         setShowMobileMenu={setShowMobileMenu}
         showMobileMenu={showMobileMenu}
-      />
+      />  
     </header>
   );
 }

@@ -25,7 +25,7 @@ function ContactSection({ isPaddingTop }: { isPaddingTop?: boolean }) {
                   <h4 className="heading-4 pb-4 pt-3">{title}</h4>
                   <p className="pb-5 text-center">{desc}</p>
                   <Link
-                    to={"/contact"}
+                    to="https://members.blackbottomconsulting.com/contact-us-5405-9699"
                     className="text-s1 underline font-medium"
                   >
                     {linkText}

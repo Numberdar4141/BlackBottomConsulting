@@ -125,9 +125,11 @@ function ContactPage() {
                 <input type="checkbox" className=" " />
                 <p>Subscribe to our newsletter.</p>
               </label>
+              <Link to="https://members.blackbottomconsulting.com/contact-us-5405-9699">
               <button className="py-2 sm:py-3 px-4 sm:px-6 bg-green-800 rounded-xl text-white block text-center border border-p1 hover:bg-s2 hover:border-mainTextColor hover:text-mainTextColor duration-500">
                 Submit
               </button>
+              </Link>
             </div>
           </form>
         </div>
